@@ -8,9 +8,9 @@ import  Shopper from '../../assets/Shopper.png';
 import Money from '../../assets/Money.png';
 const MyWork = () => {
     return (
-        <div id='mywork' className='work'>
+        <div  className='work'>
             <div className="work-title">
-                <h2>My latest Work</h2>
+                <h1>My latest Work</h1>
                 <img src={theme_pattern} alt="" />
             </div>
             <div className="work-container">
