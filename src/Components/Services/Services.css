@@ -74,8 +74,9 @@
 @media(max-width:768px){
     .services{
         align-items: start;
-        gap: 70px;
-        margin: 20px 70px;
+        gap: 30px;
+        margin: 10px 50px;
+       
 
     }
     .services-title h1{
@@ -87,7 +88,7 @@
         margin-right: -20px;
     }
     .services-format{
-        gap: 0px;
+        gap: 5px;
     }
     .services-format h2{
         font-size: 28px;
@@ -98,10 +99,11 @@
         max-width: 300px;
     }
     .services-readmore img{
-        width: 20px;
+        width: 15px;
     }
     .services-container{
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
+        grid-template-columns: 1fr ;
+        gap: 15px;
+        height: 20px;
     }
 }

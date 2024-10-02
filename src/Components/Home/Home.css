@@ -79,17 +79,19 @@
     }
     .hero-action{
         gap: 16px;
-        font-size: 18px;
-        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 300;
+        justify-content: center;
         margin-bottom: 50px;       
     }
     .hero-connect{
-        padding: 20px 30px;
-        border-radius: 40px;
+        padding: 8px 50px;
+        border-radius: 20px;
     }
     .hero-resume{
-        padding: 20px 50px;
-        border-radius: 40px;
+        padding: 8px 50px;
+        border-radius: 20px;
     }
 }
 

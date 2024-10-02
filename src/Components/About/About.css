@@ -11,7 +11,7 @@
     position: relative;
 }
 .about-title h1{
-    padding: 0px 30px;
+    padding:  30px;
     font-size: 60px;
     font-weight: 600;
 }
@@ -101,7 +101,7 @@
 @media(max-width:768px){
     .about{
         gap: 80px;
-        margin: 50px 70px;
+        margin: 40px 50px;
         align-items: start;
     }
     .about-title h1{
@@ -134,6 +134,7 @@
     }
     .about-achievement{
         justify-content: space-between;
+        
     }
     .about-achievement{
         gap: 10px;
@@ -146,5 +147,10 @@
         text-align: center;
         font-size: 16px;
     }
+    .about-achievements{
+        gap: 6px;
+        margin:  -20px;
+    }
+    
 }
 

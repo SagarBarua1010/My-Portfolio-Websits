@@ -6,6 +6,11 @@
     
     
 }
+.anchor-link:hover{
+    transform: scale(1.05);
+    color: #e9aa57 ;
+    
+}
 .text-navber{
     background: linear-gradient(270deg,#DF8908 10%,#B415FF 100%);
     color: transparent;
@@ -61,7 +66,7 @@
 }
 @media (max-width:768px) {
     .navber{
-        margin: 20px 50px;
+        margin: 30px 50px;
     }
     .nav-connect{
         display: none;
@@ -75,7 +80,7 @@
         display: block;
         position: relative;
         top: 10px;
-        left: 123px;
+        left: 105px;
         width: 20px;
     }
     .nav-menu{
@@ -84,12 +89,13 @@
         align-items: start;
         top: 0;
         gap: 20px;
-        background-color: #1F0016;
-        width: 150px;
+        background-color: #000000;
+        width: 130px;
         height: 100%;
-        z-index: 2;
+        z-index: 5;
         transition: right 0.5s;
-        right: -150px;
+         
+        
     }
     .nav-menu li{
         font-size: 30px;
